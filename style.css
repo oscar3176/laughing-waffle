@@ -1,0 +1,32 @@
+body {
+    background-size: cover;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
+#column2, #vol, img {
+    float: right;
+}
+
+
+canvas {
+    border-color: red;
+    border-width: 10px;
+    border-style: double;
+}
+
+#playagain {
+    visibility: hidden;
+}
+
+#stop {
+    visibility: hidden;
+}
